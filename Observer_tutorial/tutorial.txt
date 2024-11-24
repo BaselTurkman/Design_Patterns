@@ -1,0 +1,5 @@
+1. Complete the implementation of the WeatherData class based on the comments inside the class.
+2. Update the code for the three observers (Displays) to reflect the required functionality.
+3. Write the code in the WeatherStation class to connect all components together.
+4. Modify the code to implement the pull notification approach.
+5. Test the pull notification approach in the WeatherStation class.

@@ -1,0 +1,24 @@
+
+# Duck Simulation Updates
+
+1. **Add a New Duck Type:**
+   - Create a new duck type called `ModelDuck`.
+   - The `ModelDuck` cannot fly but can quack.
+
+2. **Modify Fly Behavior at Runtime:**
+   - Update the code to demonstrate how to change the flying behavior of the `ModelDuck` at runtime.
+   - Make the `ModelDuck` capable of flying like a rocket dynamically.
+
+3. **Update the Duck Class:**
+   - Refactor the `Duck` class to support dynamic behavior changes for flying.
+
+4. **Add New Fly Behavior:**
+   - Introduce a new flying behavior: *fly as a rocket*.
+
+5. **Simulator Demonstration:**
+   - In the simulation, show how to:
+     - Create a `ModelDuck`.
+     - Change its flying behavior to *fly as a rocket* during runtime.
+     - Display the updated behavior.
+
+
