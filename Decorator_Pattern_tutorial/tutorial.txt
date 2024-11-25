@@ -1,0 +1,26 @@
+### Task Description
+
+1. **Create the Abstract Component**: 
+   - Create a `Beverage` class with a `getDescription` method and a `cost` method to be implemented by subclasses.
+
+2. **Concrete Components**:
+   - Implement the concrete classes: `HouseBlend`, `DarkRoast`, `Espresso`, and `Decaf`. These should inherit from the `Beverage` class and define their respective costs and descriptions.
+
+3. **Decorator (Abstract)**:
+   - Create a `CondimentDecorator` class that also inherits from `Beverage`. It should have an abstract `getDescription` method.
+
+4. **Concrete Decorators**:
+   - Implement the concrete decorators: `Milk`, `Mocha`, `Soy`, and `Whip`. These classes should:
+     - Accept a `Beverage` object in their constructor.
+     - Add their own cost and description to the wrapped beverage.
+
+5. **Driver Class**:
+   - Write a driver class to:
+     - Create and wrap an `Espresso` with `Mocha`.
+     - Create and wrap a `DarkRoast` with double `Mocha` and `Whip`.
+     - Create and wrap a `HouseBlend` with double `Milk` and `Soy`.
+
+
+
+
+
