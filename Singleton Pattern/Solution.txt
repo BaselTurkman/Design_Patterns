@@ -1,0 +1,17 @@
+1. What does the code do?
+The ChocolateBoiler class models a boiler used to prepare a mixture of milk and chocolate. It provides methods to:
+
+fill(): Fill the boiler with the milk/chocolate mixture if it is empty.
+drain(): Drain the boiled contents if the boiler is not empty and has been boiled.
+boil(): Boil the contents if the boiler is not empty and not yet boiled.
+isEmpty(): Check if the boiler is empty.
+isBoiled(): Check if the contents have been boiled.
+The empty and boiled flags keep track of the boiler's state to ensure operations follow the correct sequence.
+
+2. Strength point of the code?
+
+The code encapsulates state management (empty and boiled) to ensure that the fill, boil, and drain operations are performed in the correct sequence, preventing logical errors.
+It separates state-checking methods (isEmpty() and isBoiled()) for better readability and maintenance.
+
+3. What will happen if we have multiple instances of the class ChocolateBoiler?
+If multiple instances of the ChocolateBoiler class are created, each instance will maintain its own state (empty and boiled). This could lead to inconsistent behavior if multiple instances are allowed to operate simultaneously, potentially wasting resources or causing errors in a system intended to control a single boiler.

@@ -1,0 +1,21 @@
+• Provide an algorithm for building a house
+• The algorithm contains the following steps:
+• building foundation
+• building pillars
+• building walls
+• building windows
+
+Requirement:
+• Define the template method that contains the steps for
+building the house
+• no subclass should be allowed to override it
+• Building window should be default to glass window but
+defined in away that allow different implementation
+• Building foundation should be implemented in away to be
+common and not possible to change it
+• differ the implementation of building pillars and building walls
+to subclasses
+
+Implement a Subclass:
+
+• Subclass for building wooden walls and pillars 
